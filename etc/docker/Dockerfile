@@ -39,7 +39,7 @@ conf/server.xml
 
 
 # Copy docker-entrypoint
-COPY docker-entrypoint.sh /
+COPY etc/docker/docker-entrypoint.sh /
 RUN chmod +x /docker-entrypoint.sh
 
 WORKDIR $CATALINA_HOME
