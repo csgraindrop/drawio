@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
-    "",
     "\\etc",
-    "\\src"
+    "\\src",
+    "\\src\\main",
+    "\\src\\main\\webapp"
   ],
-  "SelectedNode": "\\etc\\docker",
   "PreviewInSolutionExplorer": false
 }

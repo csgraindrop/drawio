@@ -2,7 +2,7 @@ FROM tomcat:9-jre11-slim
 
 LABEL maintainer="Isa Hunter <raindrop@compsolglobal.com>"
 
-ARG VERSION=10.0.12
+ARG VERSION=10.0.13
 
 RUN apt-get update -y && \
 apt-get install -y --no-install-recommends \
@@ -39,7 +39,7 @@ conf/server.xml
 
 
 # Copy docker-entrypoint
-COPY docker-entrypoint.sh /
+COPY etc/docker/docker-entrypoint.sh /
 RUN chmod +x /docker-entrypoint.sh
 
 WORKDIR $CATALINA_HOME
