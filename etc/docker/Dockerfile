@@ -1,6 +1,6 @@
 FROM tomcat:9-jre11-slim
 
-LABEL maintainer="Florian JUDITH <florian.judith.b@gmail.com>"
+LABEL maintainer="Isa Hunter <raindrop@compsolglobal.com>"
 
 ARG VERSION=10.0.12
 
